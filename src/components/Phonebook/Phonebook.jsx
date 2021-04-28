@@ -61,7 +61,6 @@ class App extends Component {
             const { contacts } = prevState;
             const newContactsList = [...contacts];
             newContactsList.splice(idx, 1)
-
             return {
                 contacts: newContactsList
             }
